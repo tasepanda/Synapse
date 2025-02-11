@@ -10,4 +10,8 @@ module.exports = {
   },
 };
 
+rules: {
+  'no-unescaped-entities': 'off', // ルールを無効化
+},
+
 export default nextConfig;
