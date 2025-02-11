@@ -26,13 +26,13 @@ export default function Example() {
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 ld:px-8 text-center">
         {/* text-centerを追加 */}
-          <h2 className="text-3xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-4xl text-center">
-            今週のマッチングが決まりました！
-          </h2>
-          <p className="mt-6 mb-6 text-lg/8 text-gray-600">
-            We’re a dynamic group of individuals who are passionate about what
-            we do and dedicated to delivering the best results for our clients.
-          </p>
+        <h2 className="text-3xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-4xl text-center">
+          今週のマッチングが決まりました！
+        </h2>
+        <p className="mt-6 mb-6 text-lg/8 text-gray-600">
+          We’re a dynamic group of individuals who are passionate about what we
+          do and dedicated to delivering the best results for our clients.
+        </p>
         <ul
           role="list"
           className="grid gap-x-8 gap-y-4 sm:grid-cols-2 sm:gap-y-16 xl:col-span-4"
@@ -40,10 +40,17 @@ export default function Example() {
           {people.map((person) => (
             <li key={person.name}>
               <div className="flex items-center gap-x-6">
-                <img
+                {/* <img
                   alt=""
                   src={person.imageUrl}
                   className="size-64 rounded-full"
+                /> */}
+                <Image
+                  className="rounded-full"
+                  src={person.imageUrl}
+                  alt="person face"
+                  width={256}
+                  height={256}
                 />
                 <div>
                   <h3 className="text-base/7 font-semibold tracking-tight text-gray-900">
