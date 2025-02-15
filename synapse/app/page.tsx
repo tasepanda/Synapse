@@ -23,7 +23,7 @@ export default function Home() {
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2">TKSとHTRによる、Frontend学びの軌跡である.</li>
           <li>
-            このTop画面から、どこでもリンクするようにしておくけど、後でかっこよく編集する.
+            このTop画面から、どこでもリンクするようにしておくけど、後でかっこよく編集したい.
           </li>
         </ol>
 
