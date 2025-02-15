@@ -1,19 +1,25 @@
 const people = [
   {
-    name: "Leslie Alexander",
-    role: "Co-Founder / CEO",
+    name: "高瀬 圭祐",
+    role: "制御ソフト管理G",
     imageUrl:
-      "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
   },
   {
-    name: "Shohei Ohtani",
-    role: "Baseball Player",
+    name: "服部 将道",
+    role: "電技構造改革G",
     imageUrl:
-      "https://www.jsports.co.jp/img/web/page/baseball/mlb/player/shoheiohtani_2024.jpg",
+      "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
   },
   {
-    name: "Masamichi Hattori",
-    role: "TMC Player",
+    name: "高田 光太",
+    role: "レガモダG",
+    imageUrl:
+      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+  },
+  {
+    name: "小島 和輝",
+    role: "さぼり昼寝G",
     imageUrl:
       "https://www.jsports.co.jp/img/web/page/baseball/mlb/player/shoheiohtani_2024.jpg",
   },
@@ -27,11 +33,12 @@ export default function Example() {
       <div className="mx-auto max-w-7xl px-6 ld:px-8 text-center">
         {/* text-centerを追加 */}
         <h2 className="text-3xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-4xl text-center">
-          今週のマッチングが決まりました！
+          マッチング成功しました！
         </h2>
         <p className="mt-6 mb-6 text-lg/8 text-gray-600">
-          We’re a dynamic group of individuals who are passionate about what we
-          do and dedicated to delivering the best results for our clients.
+          あなたのプロフィールから相性があう4人を導き出しました.
+          <br></br>
+          ここから合コンを設定して、おしゃべりしましょう♪
         </p>
         <ul
           role="list"
