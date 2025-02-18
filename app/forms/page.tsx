@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, ChangeEvent } from "react";
 import { ChevronDownIcon } from "@heroicons/react/16/solid";
 import { Field, Label, Switch } from "@headlessui/react";
 
@@ -9,11 +9,11 @@ export default function Example() {
   const [position, setAge] = useState("");
   const [roles, setRoles] = useState([]); // 役割を管理するstate
 
-  const handleAgeChange = (e) => {
+  const handleAgeChange = (e: ChangeEvent<HTMLInputElement>) => {
     setAge(e.target.value);
   };
 
-  const handleRoleChange = (e) => {
+  const handleRoleChange = (e: ChangeEvent<HTMLInputElement>) => {
     const role = e.target.value;
     const isChecked = e.target.checked;
 
