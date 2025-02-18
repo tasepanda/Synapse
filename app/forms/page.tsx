@@ -4,10 +4,15 @@ import { useState, ChangeEvent } from "react";
 import { ChevronDownIcon } from "@heroicons/react/16/solid";
 import { Field, Label, Switch } from "@headlessui/react";
 
+interface Role {
+  name: string;
+  // ... other properties
+}
+
 export default function Example() {
   const [agreed, setAgreed] = useState(false);
   const [position, setAge] = useState("");
-  const [roles, setRoles] = useState([]); // 役割を管理するstate
+  const [roles, setRoles] = useState<Role[]>([]); // 役割を管理するstate
 
   const handleAgeChange = (e: ChangeEvent<HTMLInputElement>) => {
     setAge(e.target.value);
