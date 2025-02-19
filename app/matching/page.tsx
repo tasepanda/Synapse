@@ -19,7 +19,7 @@ const people = [
   },
   {
     name: "小島 和輝",
-    role: "修行派遣がんばってねG",
+    role: "工場実習がんばれG",
     imageUrl:
       "https://www.jsports.co.jp/img/web/page/baseball/mlb/player/shoheiohtani_2024.jpg",
   },
