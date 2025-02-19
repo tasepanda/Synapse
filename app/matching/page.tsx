@@ -13,13 +13,13 @@ const people = [
   },
   {
     name: "高田 光太",
-    role: "レガモダG",
+    role: "モダナイズG",
     imageUrl:
       "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
   },
   {
     name: "小島 和輝",
-    role: "さぼり昼寝G",
+    role: "修行派遣がんばってねG",
     imageUrl:
       "https://www.jsports.co.jp/img/web/page/baseball/mlb/player/shoheiohtani_2024.jpg",
   },
